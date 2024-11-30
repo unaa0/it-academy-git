@@ -1,5 +1,5 @@
 def dict_gen():
-    new_dict = {}
+
     for num1 in range(1, 21):
         num2 = num1 ** 3
         new_dict = {num1 : num2}
