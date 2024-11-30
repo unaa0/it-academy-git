@@ -24,8 +24,8 @@ def find_country(countries_list, given_city):
     return found_country
 
 
-m = int(input("Количество стран: "))
-list_of_countries = (list(country_gen(m)))
+num_countries = int(input("Количество стран: "))
+list_of_countries = (list(country_gen(num_countries)))
 
 num_of_cities = int(input("Количество городов: "))
 final_result = find_country(list_of_countries, num_of_cities)
