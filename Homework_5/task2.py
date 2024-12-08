@@ -33,4 +33,4 @@ def rand_func(num):
 
 print(func_timer_outer(secs_or_mins=True)(rand_func)(2))
 print(func_timer_outer(secs_or_mins=False)(rand_func)(20))
-print(func_timer_outer(secs_or_mins=False)(rand_func)(30))
+# print(func_timer_outer(secs_or_mins=False)(rand_func)(30))
